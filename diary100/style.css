@@ -1,0 +1,75 @@
+
+body{
+    margin: 0 auto;
+    /* padding: 15px;
+    width: 50%; */
+    background: #fbfbfa;
+}
+
+h1{ 
+    color: #545454; 
+    font-size: 20px;
+    text-decoration: none;
+}
+header h1:hover{
+    text-decoration: underline;
+}
+/* ナビゲーション */
+#top-nav{
+    display: flex;
+}
+form{
+    overflow: hidden;
+}
+input[type="text"]{
+    color: #545454;
+    height: 60px;
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+input[type="password"]{
+    color: #545454;
+    height: 60px;
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+} 
+input[type="submit"]{
+    border: none;
+    padding: 15px 30px;
+    margin-bottom: 15px;
+    background: rgb(15, 15, 235);
+    color: white;
+    float: right;
+}
+input[type="submit"]:hover{
+    background: red;
+    cursor: pointer;
+}
+a{
+    color: #545454;
+    display: block;
+}
+a:hover{
+    text-decoration: none;
+}
+.err_msg{
+color: #ff4d4b;
+}
+
+main{
+    width: 980px;
+}
+input[text].write-text{
+    background-color: red;
+    font-weight: bolder;
+    
+}
+
